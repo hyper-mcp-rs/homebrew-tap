@@ -1,2 +1,2 @@
-# homebred-tap
-Tap for hyper-mcp home-brew
+# homebrew-tap
+Tap for hyper-mcp homebrew
