@@ -3,24 +3,24 @@
 class HyperMcpRemote < Formula
   desc "Stdio to Streamable-HTTP MCP proxy with OAuth support"
   homepage "https://github.com/hyper-mcp-rs/hyper-mcp-remote"
-  version "0.1.3"
+  version "0.1.4"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/hyper-mcp-rs/hyper-mcp-remote/releases/download/v0.1.3/hyper-mcp-remote-aarch64-apple-darwin.tar.gz"
-      sha256 "36b4f2d497cb95a71ec185590455e7c291af27dda0891f13c42a7226365df00b"
+      url "https://github.com/hyper-mcp-rs/hyper-mcp-remote/releases/download/v0.1.4/hyper-mcp-remote-aarch64-apple-darwin.tar.gz"
+      sha256 "f97d7585faacd15ebc41ed2fe50fd52ec38b1ca68473442ed356e8cdb9adc3c5"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/hyper-mcp-rs/hyper-mcp-remote/releases/download/v0.1.3/hyper-mcp-remote-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "bbbb3e62c00edc6ab1ef8b429f450efed2ff49cb2b73477d85b8651ffd71fc51"
+      url "https://github.com/hyper-mcp-rs/hyper-mcp-remote/releases/download/v0.1.4/hyper-mcp-remote-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "57f13146cfcd8861760bf397c36400e9aeac736ce6f2778f143ab88c2039abbf"
     end
     on_intel do
-      url "https://github.com/hyper-mcp-rs/hyper-mcp-remote/releases/download/v0.1.3/hyper-mcp-remote-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "b8edf99fb161abf5d771e3063045b28df74708890a531c6811f07d3dfeb00aca"
+      url "https://github.com/hyper-mcp-rs/hyper-mcp-remote/releases/download/v0.1.4/hyper-mcp-remote-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "c2870e8fcd33e471b3492d0824d9943172f2c27d8292b1535ce2c60ecdcaf60e"
     end
   end
 
