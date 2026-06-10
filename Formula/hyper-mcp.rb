@@ -3,24 +3,24 @@
 class HyperMcp < Formula
   desc "A fast, secure MCP server that extends its capabilities through WebAssembly plugins"
   homepage "https://github.com/hyper-mcp-rs/hyper-mcp"
-  version "0.7.4"
+  version "0.8.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/hyper-mcp-rs/hyper-mcp/releases/download/v0.7.4/hyper-mcp-aarch64-apple-darwin.tar.gz"
-      sha256 "f1f343d226aeaa92b837e1b8088e117449ad89fb15cee3b894cdefde017ce965"
+      url "https://github.com/hyper-mcp-rs/hyper-mcp/releases/download/v0.8.0/hyper-mcp-aarch64-apple-darwin.tar.gz"
+      sha256 "ad4cfa110edaa2de608f9fa8b7910815b0b622e0bbdaea641b32a8576e1d9ca5"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/hyper-mcp-rs/hyper-mcp/releases/download/v0.7.4/hyper-mcp-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "cb81d517a6aa6ccbb360958be0d8735d84328c15e880fbc553df1828f33767fe"
+      url "https://github.com/hyper-mcp-rs/hyper-mcp/releases/download/v0.8.0/hyper-mcp-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "30e34048b8a8c395755fecc52323ee7ef201087b5e14c1760a3e17dc28cef74a"
     end
     on_intel do
-      url "https://github.com/hyper-mcp-rs/hyper-mcp/releases/download/v0.7.4/hyper-mcp-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "7548d5417b2afe564230d4841db6a3f2081590fc4dd9b3f574634be45664b098"
+      url "https://github.com/hyper-mcp-rs/hyper-mcp/releases/download/v0.8.0/hyper-mcp-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "4e780770b26ef6fad20a71d05d499b0b220d566f364e82585beca30f67c666d9"
     end
   end
 
