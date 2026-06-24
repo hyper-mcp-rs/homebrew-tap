@@ -3,24 +3,24 @@
 class HyperMcpProxy < Formula
   desc "Streamable-HTTP to Stdio MCP proxy"
   homepage "https://github.com/hyper-mcp-rs/hyper-mcp-proxy"
-  version "0.3.3"
+  version "0.3.4"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/hyper-mcp-rs/hyper-mcp-proxy/releases/download/v0.3.3/hyper-mcp-proxy-aarch64-apple-darwin.tar.gz"
-      sha256 "67b34e2234e61349ba0035c3c733d7314b85f730f179930e31b18cf88b67a6a3"
+      url "https://github.com/hyper-mcp-rs/hyper-mcp-proxy/releases/download/v0.3.4/hyper-mcp-proxy-aarch64-apple-darwin.tar.gz"
+      sha256 "c7f45d5137de3b60cfb43cb275870d69dbb94e42455cd765f8f0a02158f90d2e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/hyper-mcp-rs/hyper-mcp-proxy/releases/download/v0.3.3/hyper-mcp-proxy-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "f3479a88a1e3802629675e3b5538aa599ba4cbf57173e360930c1964e14aa0b5"
+      url "https://github.com/hyper-mcp-rs/hyper-mcp-proxy/releases/download/v0.3.4/hyper-mcp-proxy-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "a8a6ed332aefd5f624e409de8eee2e73e1bed6598593adfdbbbceca4f86a2d81"
     end
     on_intel do
-      url "https://github.com/hyper-mcp-rs/hyper-mcp-proxy/releases/download/v0.3.3/hyper-mcp-proxy-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "a01e5535d9b83268964be3ec1b1a4f5c0d3bf0ba7267948fd16a29a23fd2609d"
+      url "https://github.com/hyper-mcp-rs/hyper-mcp-proxy/releases/download/v0.3.4/hyper-mcp-proxy-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "cf7c21e821f8e77a9ae827ba0861201beb08622c86a5e4eaba85840b3012c999"
     end
   end
 
