@@ -3,24 +3,24 @@
 class HyperMcpRouter < Formula
   desc "Adaptive OpenAI-compatible LLM router with prompt classification"
   homepage "https://github.com/hyper-mcp-rs/hyper-mcp-router"
-  version "0.1.4"
+  version "0.1.5"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/hyper-mcp-rs/hyper-mcp-router/releases/download/v0.1.4/hyper-mcp-router-aarch64-apple-darwin.tar.gz"
-      sha256 "ac88035f77db2b9bd396631add8afa43806950c761d6eb7424a3ebe7f0491822"
+      url "https://github.com/hyper-mcp-rs/hyper-mcp-router/releases/download/v0.1.5/hyper-mcp-router-aarch64-apple-darwin.tar.gz"
+      sha256 "3e22e7ace446de40eccbfc5822e36872838250283ca795eb52ee831faac9075c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/hyper-mcp-rs/hyper-mcp-router/releases/download/v0.1.4/hyper-mcp-router-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "20315607feede572fc067a17ed4e12fdf0e15d7dd392ab00bad2a9122bf314f5"
+      url "https://github.com/hyper-mcp-rs/hyper-mcp-router/releases/download/v0.1.5/hyper-mcp-router-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "a1a1a9d3350ddefa1376cab88402cd63ddd438a6aed198be68e1b0e8cb0e1259"
     end
     on_intel do
-      url "https://github.com/hyper-mcp-rs/hyper-mcp-router/releases/download/v0.1.4/hyper-mcp-router-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "d96a56dbb3d6213e5d20024d5770dc9c441ad0c5563a0e477fdbb5be796c4502"
+      url "https://github.com/hyper-mcp-rs/hyper-mcp-router/releases/download/v0.1.5/hyper-mcp-router-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "80901c0e6760dc174521bcc6a30d689da20b9b08907fa195ad3a6f329c2ead17"
     end
   end
 
